@@ -64,6 +64,8 @@ body {
 
 .feature-card {
     display: flex;
+    align-items: center;
+
 }
 
 .feature-card img {
@@ -99,4 +101,16 @@ body {
 #contact i {
     color: #FFF3E6;
     margin: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+    .feature-card img {
+        padding: 5%;
+        width: 35%;
+        height: 35%;
+    }
+
+    .logo {
+        display: none;
+    }
 }
