@@ -1,0 +1,101 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.color-dark {
+    background-color: #1a508b;
+}
+
+.color-dark a, .color-dark h1, .color-dark h2, .color-dark p {
+    color: #FFF3E6;
+}
+
+.color-light {
+    background-color: #FFF3E6;
+}
+
+.color-light h2, .color-light h3, .color-light p, .color-light i {
+    color: #0d335d;
+}
+
+/* header */
+#header {
+    padding: 1% 2%;
+}
+
+.navbar-brand {
+    font-size: 2rem ;
+    font-weight: bold;
+}
+
+/* Title */
+.title {
+    margin: 4% 4%;
+}
+
+.logo {
+    width: 45%;
+    margin-left: 60%;
+}
+
+.title .btn {
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+/* intro */
+#intro {
+    padding: 4% 2% 2%;
+}
+
+/* feature */
+
+#carouselFeatures {
+    padding-top: 3%;
+}
+
+.carousel-inner {
+    padding: 0.5% 10%;
+}
+
+.feature-card {
+    display: flex;
+}
+
+.feature-card img {
+    padding: 5%;
+    width: 35%;
+}
+
+.carousel-item h2 {
+    font-weight: 700;
+    font-size: 2.2em;
+}
+
+.feature-card p {
+    padding: 10%;
+    font-size: larger;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+/* survey */
+
+#survey {
+    padding: 3% 2%;
+}
+
+#survey h2, #survey h3, #survey .btn {
+    margin: 2% 15%;
+}
+
+/* contact */
+
+#contact i {
+    color: #FFF3E6;
+    margin: 1%;
+}
