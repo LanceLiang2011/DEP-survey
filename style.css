@@ -69,6 +69,7 @@ body {
 .feature-card img {
     padding: 5%;
     width: 35%;
+    height: auto;
 }
 
 .carousel-item h2 {
